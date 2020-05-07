@@ -6,17 +6,16 @@ body {
 
 .bg-img {
     background-image: url(../gallery/burgas.jpeg);
-
-    height: 5040px;
-
-    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     background-repeat: repeat;
 }
 
 .container {
     overflow: hidden;
-    position: absolute;
-    margin: 20px;
+    /* position: absolute; */
+    margin: 0 20px;
     width: auto;
 }
 
@@ -51,7 +50,7 @@ body {
 
 .text {
     color: papayawhip;
-    padding: 15px 15px 2500px;
+    padding: 15px 15px;
     font-size: 30px;
     margin-top: 30px;
 }

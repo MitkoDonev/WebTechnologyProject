@@ -5,7 +5,6 @@ const recievedNews = (newsdata) => {
     const articlesDiv = document.querySelector(".articles")
     newsdata.articles.forEach((article) => {
 
-        //Here we create and add html elements to our html file
         const div = document.createElement("div")
         div.className = "news"
         div.innerHTML = `

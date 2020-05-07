@@ -6,10 +6,9 @@ body {
 
 .bg-img {
     background-image: url(../gallery/background.jpeg);
-
-    height: 3150px;
-
-    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     background-repeat: repeat;
 }
 
